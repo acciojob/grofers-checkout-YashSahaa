@@ -14,6 +14,7 @@ const getSum = () => {
 	}
 	//console.log(total)
 	let row = document.createElement("tr")
+	row.setAttribute('id',"ans")
 	let cell = document.createElement("td")
 	cell.innerText = "Total is: "+total
 	row.append(cell)
